@@ -8,5 +8,8 @@ def echo():
     return render_template('index.html', text='Mars Data')
 
 
+@app.route("/scrape")
+
+
 if __name__ == "__main__":
     app.run(debug=True)
